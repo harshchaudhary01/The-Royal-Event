@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'montserrat';
+    /* background-color: black; */
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 40px; */
+    position: fixed;
+    z-index: 999;
+}
+.Planning{
+    width: 200px;
+    height: 50px;
+    background: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#nav h4{
+    color: white;
+    padding-left: 120px;
+}
+a{
+    text-decoration: none;
+}
+#nav img{
+    height: 120%;
+    padding: 0 25px;
+}
+#nav button{
+    border-color: white;
+    background-color: black;
+    color: white;
+    margin-left: 120px;
+    width: 5%;
+    border: none;
+    background: none;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    transform: scale(1.2);
+}
+#main{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.40);
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+
+}
+#page1 h1 {
+    font-size: 7.5vw;
+    font-weight: 900;
+    position: relative;
+    border-color: black;
+    color: white;
+  }
